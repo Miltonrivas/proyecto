@@ -56,5 +56,28 @@ namespace proyecto
                 nice.Show();
             }
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.SoloNumeros(e);
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.NumerosDecimales(e);
+        }
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.NumerosDecimales(e);
+        }
     }
 }
