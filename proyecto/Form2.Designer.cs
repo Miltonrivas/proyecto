@@ -36,6 +36,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,12 +65,13 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(53, 355);
+            this.button1.Location = new System.Drawing.Point(53, 305);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 25);
             this.button1.TabIndex = 13;
-            this.button1.Text = "continuar";
+            this.button1.Text = "iniciar sesion ";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
@@ -117,12 +120,35 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "iniciar sesion ";
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(53, 392);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(107, 25);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "registrate";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Tomato;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(53, 363);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(259, 26);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "¿no tienes cuenta?\r\n Que esperas y registrate dando click en el boton";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::proyecto.Properties.Resources._1366_2000__1_;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
@@ -150,5 +176,7 @@
         private Label label3;
         private Label label2;
         private Label label1;
+        private Button button2;
+        private Label label5;
     }
 }
