@@ -54,5 +54,12 @@ namespace proyecto
             Form6 credito = new Form6();
             credito.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            agregarUsuario si = new agregarUsuario();
+            si.Show();
+        }
     }
 }
