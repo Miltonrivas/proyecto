@@ -32,9 +32,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtContra1 = new System.Windows.Forms.TextBox();
+            this.txtContra2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -81,26 +81,26 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "REPITA CONTRASEÑA";
             // 
-            // textBox1
+            // txtUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(237, 133);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(214, 29);
-            this.textBox1.TabIndex = 4;
+            this.txtUsuario.Location = new System.Drawing.Point(237, 133);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(214, 29);
+            this.txtUsuario.TabIndex = 4;
             // 
-            // textBox2
+            // txtContra1
             // 
-            this.textBox2.Location = new System.Drawing.Point(237, 191);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(214, 29);
-            this.textBox2.TabIndex = 5;
+            this.txtContra1.Location = new System.Drawing.Point(237, 191);
+            this.txtContra1.Name = "txtContra1";
+            this.txtContra1.Size = new System.Drawing.Size(214, 29);
+            this.txtContra1.TabIndex = 5;
             // 
-            // textBox3
+            // txtContra2
             // 
-            this.textBox3.Location = new System.Drawing.Point(237, 249);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(214, 29);
-            this.textBox3.TabIndex = 6;
+            this.txtContra2.Location = new System.Drawing.Point(237, 249);
+            this.txtContra2.Name = "txtContra2";
+            this.txtContra2.Size = new System.Drawing.Size(214, 29);
+            this.txtContra2.TabIndex = 6;
             // 
             // button1
             // 
@@ -145,9 +145,9 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtContra2);
+            this.Controls.Add(this.txtContra1);
+            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -167,9 +167,9 @@
         private Label label2;
         private Label label3;
         private Label label4;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txtUsuario;
+        private TextBox txtContra1;
+        private TextBox txtContra2;
         private Button button1;
         private Button button2;
         private Label label5;
